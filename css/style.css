@@ -1,0 +1,345 @@
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+td,
+th {
+  font-size: 13px;
+}
+
+img {
+  overflow: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 1280px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  font-size: 13px;
+}
+
+.header-nav ul {
+  margin-top: 3px;
+}
+
+/* HERO SECTION */
+header {
+  background-image: url("/images/conference-hero.jpg");
+  background-size: auto;
+  height: 450px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 60px;
+}
+
+header h2 {
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+header h2:hover {
+  color: #fff;
+  transition-duration: 0.7s;
+}
+
+header img {
+  display: block;
+  width: 125px;
+  margin: auto;
+  border-radius: 25% 3% 25% 3%;
+  border: 5px #fff solid;
+  padding: 2px;
+}
+
+/*HERO BANNER*/
+.hero-banner {
+  background-color: #bdd5ea;
+}
+
+.hero-banner h2 {
+  font-size: 22px;
+}
+
+.hero-banner-text {
+  padding: 25px 0 25px 50px;
+}
+
+.hero-banner-text li {
+  font-size: 12px;
+}
+
+/* IMAGE REFACTOR */
+.benefits-section,
+.speakers {
+  background-image: url("/images/swirl.png");
+  background-size: auto;
+}
+
+.benefits-section-block {
+  margin-top: 30px;
+  margin-bottom: 110px;
+  padding: 0 50px;
+}
+
+.benefits-section-image {
+  display: inline-block;
+  max-width: 40%;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.benefits-section-image img {
+  max-width: 230px;
+  margin: 0 auto;
+  border-radius:50%;
+  border: 5px #fff solid;
+}
+
+.benefits-section-image img:hover {
+  border: 5px #000 solid;
+}
+
+.benefits-section-text {
+  display: inline-block;
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 0 50px;
+  vertical-align: top;
+}
+
+/* TICKETS */
+.tickets {
+  text-align: center;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+/* TICKET FORM */
+.name label,
+.email label {
+  display: none;
+}
+
+.name {
+  display: block;
+}
+
+input::placeholder {
+  color: #7e7e7e;
+}
+
+.email {
+  display: block;
+}
+
+.ticket-choice {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.checkbox label {
+  display: inline-block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 18px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -1px;
+}
+
+.button {
+  width: 40px;
+  margin: 10px auto;
+}
+
+.button input {
+  font-size: 32px;
+}
+
+.image-text h3 {
+  font-size: 18px;
+}
+
+/* RESERVATION SECTION */
+.reservation-banner {
+  clear: both;
+  background-color: #bad5ee;
+  padding: 70px 35px;
+  height: auto;
+}
+
+.reservation-banner h4 {
+  font-size: 26px;
+  padding: 30px 0 25px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.reservation-banner th,
+.reservation-banner td {
+  font-size: 14px;
+  text-align: center;
+  border: 1px #bad5ee solid;
+}
+
+.reservation-banner th {
+  background-color: #495867;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.reservation-banner td {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 22px;
+}
+
+.reservation-banner button {
+  margin-top: 0;
+}
+
+/* SPEAKERS SECTION */
+.speakers {
+  margin: 0;
+}
+
+.speakers h1, h2 {
+  text-align: center;
+}
+
+.speakers h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.left-column {
+  width: 48%;
+  float: left;
+  border: 1px #e9e9e9 solid;
+  margin-left: 10px;
+  box-shadow: 5px #e9e9e9;
+  margin-bottom: 50px;
+}
+
+.right-column {
+  width: 48%;
+  float: right;
+  border: 1px #e9e9e9 solid;
+  margin-bottom: 50px;
+}
+
+.spkr-block {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.spkr-text {
+  display: inline-block;
+  float: right;
+  max-width: 50%;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.speakers img {
+  border-radius: 50%;
+  width: 135px;
+  float: left;
+}
+
+/* FORM */
+
+.form-box {
+  display: inline-block;
+  border: 1px #e9e9e9 solid;
+  box-shadow: 1px 1px 2px 1px #e9e9e9;
+  width: 35%;
+  margin: auto;
+}
+
+.form-box input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form-box button {
+  margin-bottom: 25px;
+}
+
+/* BUTTONS */
+.reserve {
+  background-color: #fe5f55;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #bad5ee;
+  height: 155px;
+  padding-top: 55px;
+  padding-bottom: 130px;
+  clear: both;
+  margin: 0;
+}
+
+.footer .wrap {
+  text-align: center;
+}
+
+.footer button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 30px;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #495867;
+  margin: 0;
+  height: 70px;
+}
+
+.copyright-text p {
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  margin: auto;
+  padding-top: 25px;
+}
