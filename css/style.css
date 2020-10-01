@@ -140,9 +140,7 @@ section.hero-banner::before {
 
 .benefits-section-image img:hover {
   border: 5px #000 solid;
-  margin-right: -20px;
-  margin-bottom: -20px;
-  max-width: 250px;
+  transform: scale(1.05);
 }
 
 .benefits-section-text {
