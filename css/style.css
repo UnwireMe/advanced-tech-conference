@@ -376,6 +376,7 @@ input::placeholder {
 
 /* Media Queries */
 @media only screen and (max-width: 700px) {
+  /* Benefits Section */
   .benefits-section .wrap {
     padding: 0;
   }
@@ -395,4 +396,38 @@ input::placeholder {
     margin: 0;
     padding: 0;
   }
+
+  /* Hero Banner */
+  .hero-banner h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .hero-number {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .hero-banner-text {
+    width: 55%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    text-align: center;
+    transform: none;
+  }
+
+  .hero-banner-text li {
+    font-size: 15px;
+    margin: 0 auto;
+    padding-left: 5px;
+    list-style: none;
+  }
+
+  .hero-banner-text ul {
+    margin: 25px auto;
+    padding: 0;
+  }
+
 }
