@@ -376,25 +376,25 @@ input::placeholder {
 
 /* Media Queries */
 @media only screen and (max-width: 700px) {
-  /* Benefits Section */
-  .benefits-section .wrap {
-    padding: 0;
+  /* Header */
+header {
+  height: 375px;
+}
+
+.hero-image {
+  width: 90px;
+}
+
+  header h1 {
+    font-size: 1.5em;
   }
 
-  .benefits-section-image {
-    display: none;
+  header h2 {
+    font-size: 1.3em;
   }
 
-  .benefits-section-text {
-    display: block;
-    max-width: 100%;
-    margin-left: 5px;
-    vertical-align: top;
-  }
-
-  .benefits-section-block {
-    margin: 0;
-    padding: 0;
+  header p {
+    font-size: 14px;
   }
 
   /* Hero Banner */
@@ -429,5 +429,28 @@ input::placeholder {
     margin: 25px auto;
     padding: 0;
   }
+
+  /* Benefits Section */
+  .benefits-section .wrap {
+    padding: 0;
+  }
+
+  .benefits-section-image {
+    display: none;
+  }
+
+  .benefits-section-text {
+    display: block;
+    max-width: 100%;
+    margin-left: 5px;
+    vertical-align: top;
+  }
+
+  .benefits-section-block {
+    margin: 0;
+    padding: 0;
+  }
+
+
 
 }
