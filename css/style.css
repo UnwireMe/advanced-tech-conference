@@ -140,7 +140,7 @@ section.hero-banner::before {
 .benefits-section-image img {
   max-width: 230px;
   margin: 0 auto;
-  border-radius:50%;
+  border-radius: 50%;
   border: 5px #fff solid;
 }
 
@@ -309,7 +309,6 @@ input::placeholder {
 }
 
 /* FORM */
-
 .form-box {
   display: inline-block;
   border: 1px #e9e9e9 solid;
@@ -373,4 +372,27 @@ input::placeholder {
   color: #fff;
   margin: auto;
   padding-top: 25px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+  .benefits-section .wrap {
+    padding: 0;
+  }
+
+  .benefits-section-image {
+    display: none;
+  }
+
+  .benefits-section-text {
+    display: block;
+    max-width: 100%;
+    margin-left: 5px;
+    vertical-align: top;
+  }
+
+  .benefits-section-block {
+    margin: 0;
+    padding: 0;
+  }
 }
