@@ -32,12 +32,32 @@ body {
   margin: 0 auto;
 }
 
+header .wrap {
+  padding: 0 10px;
+}
+
 .header-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  margin-right: -50px;
   font-size: 13px;
 }
 
 .header-nav ul {
-  margin-top: 3px;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+}
+
+.header-nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
 }
 
 /* HERO SECTION */
