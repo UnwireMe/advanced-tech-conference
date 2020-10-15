@@ -524,4 +524,23 @@ input::placeholder {
     margin: 10px auto 50px;
     padding: 0;
   }
+
+  /* Tickets Section */
+  /* FORM */
+  .form-box {
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    width: 55%;
+    margin: auto;
+  }
+
+  .form-box input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .form-box #email,
+  .form-box #name {
+    width: 85%;
 }
