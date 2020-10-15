@@ -396,14 +396,15 @@ input::placeholder {
 
 /* Media Queries */
 @media only screen and (max-width: 700px) {
-  /* Header */
-header {
-  height: 375px;
-}
 
-.hero-image {
-  width: 90px;
-}
+  /* Header */
+  header {
+    height: 375px;
+  }
+
+  .hero-image {
+    width: 90px;
+  }
 
   header h1 {
     font-size: 1.5em;
@@ -472,9 +473,55 @@ header {
   }
 
   /* Speakers Section */
+  .speakers h1 {
+    font-size: 1.5em;
+    margin: 60px auto 30px;
+  }
+
+  .speakers h2 {
+    font-size: 1.6em;
+    margin: 10px auto 30px;
+  }
+
+  .speakers h3 {
+    text-align: left;
+  }
+
   .speakers img {
     display: none;
   }
-  
 
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 10px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .right-column {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 0;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .spkr-block {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .spkr-text {
+    display: block;
+    max-width: 90%;
+    text-align: left;
+    margin: 10px auto 50px;
+    padding: 0;
+  }
 }
